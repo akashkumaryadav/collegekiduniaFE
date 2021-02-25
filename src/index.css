@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
 
-@layer utilities{
-    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-
-    .font-comic{
-        font-family:"Comic Neue"
-    }
+  .font-comic {
+    font-family: "Comic Neue";
+  }
+  body {
+    font-family: "Comic Neue";
+    color: rgba(107, 114, 128, 1);
+  }
 }

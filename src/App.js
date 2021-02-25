@@ -8,11 +8,13 @@ import Post from "./Pages/Post";
 function App() {
   return (
     <Fragment>
-      <MenuBar />
+      <MenuBar >
       <Router>
         <Home path="/" />
         <Post path="/post/:postId" />
       </Router>
+      </MenuBar>
+     
     </Fragment>
   );
 }
